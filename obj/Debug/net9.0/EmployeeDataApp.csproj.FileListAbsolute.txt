@@ -1,0 +1,10 @@
+/Users/alexandramccoy/employee-data-app/obj/Debug/net9.0/EmployeeDataApp.csproj.AssemblyReference.cache
+/Users/alexandramccoy/employee-data-app/obj/Debug/net9.0/EmployeeDataApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandramccoy/employee-data-app/obj/Debug/net9.0/EmployeeDataApp.AssemblyInfoInputs.cache
+/Users/alexandramccoy/employee-data-app/obj/Debug/net9.0/EmployeeDataApp.AssemblyInfo.cs
+/Users/alexandramccoy/employee-data-app/obj/Debug/net9.0/EmployeeDataApp.csproj.CoreCompileInputs.cache
+/Users/alexandramccoy/employee-data-app/obj/Debug/net9.0/EmployeeDataApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/alexandramccoy/employee-data-app/obj/Debug/net9.0/EmployeeDataApp.RazorAssemblyInfo.cache
+/Users/alexandramccoy/employee-data-app/obj/Debug/net9.0/EmployeeDataApp.RazorAssemblyInfo.cs
+/Users/alexandramccoy/employee-data-app/obj/Debug/net9.0/EmployeeDataApp.sourcelink.json
+/Users/alexandramccoy/employee-data-app/obj/Debug/net9.0/EmployeeDataApp.MvcApplicationPartsAssemblyInfo.cs
