@@ -1,0 +1,31 @@
+@page "/addEmployee"
+@inject EmployeeDataApp.Data.AppDbContext _context
+
+<h1>Add Employee</h1>
+
+<EditForm Model="@newEmployee" OnInvalidSubmit="SaveEmployee">
+    <DataAnnotationsValidator />
+    <div>
+        <label>Job Title:</label>
+        <InputText @bind-Value="newEmployee.JobTitle" />
+    </div>
+    <div>
+        <label>Department:</label>
+        <InputText @bind-Value="newEmployee.Department" />
+    </div>
+    <div>
+        <label>Salary:</label>
+        <InputNumber @bind-Value="newEmployee.Salary" />
+    </div>
+    <button> type="submit">Save</button>
+</EditForm>
+
+@code {
+    private Employee newEmployee = new Employee();
+
+    private void SaveEmployee()
+    {
+        _context.Employees.Add(newEmployee);
+        _context.SaveChanges();
+    }
+}
