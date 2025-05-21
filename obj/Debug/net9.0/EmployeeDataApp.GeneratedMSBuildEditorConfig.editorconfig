@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = RW1wbG95ZWVVSS9Db21wb25lbnRzL0FwcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alexandramccoy/employee-data-app/EmployeeUI/Components/Pages/AddEmployee.razor]
+build_metadata.AdditionalFiles.TargetPath = RW1wbG95ZWVVSS9Db21wb25lbnRzL1BhZ2VzL0FkZEVtcGxveWVlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alexandramccoy/employee-data-app/EmployeeUI/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = RW1wbG95ZWVVSS9Db21wb25lbnRzL1BhZ2VzL0NvdW50ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

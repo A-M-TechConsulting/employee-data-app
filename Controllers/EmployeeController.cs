@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using EmployeeDataApp;
+using EmployeeDataApp.Data;
 using System.Linq;
 using Microsoft.Extensions.FileProviders;
+
+namespace EmployeeDataApp.Controllers;
 
 [Route("api/employees")]
 [ApiController]
