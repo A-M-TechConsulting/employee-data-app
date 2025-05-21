@@ -1,0 +1,39 @@
+@page "/employees"
+@using EmployeeDataApp.Data;
+@inject EmployeeDataApp.Data.AppDbContext _context
+
+<h1>Emplolyee List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>EmployeeID</th>
+            <th>Department</th>
+            <th>JobTitle</th>
+            <th>PerformanceScore</th>
+            <th>TensureYears</th>
+            <th>Promotion</th>
+            <th>Salary</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employees in _context.Employees.ToList())
+        {
+            <tr>
+                <td>@employees.EmployeeID</td>
+                <td>@employees.Department</td>
+                <td>@employees.JobTitle</td>
+                <td>@employees.PerformanceScore</td>
+                <td>@employees.TenureYears</td>
+                <td>@employees.Promotion</td>
+                <td>@employees.Salary</td>
+                <td>@employees.Promotion ? "✅" : "❌")</td>
+                <td>
+                    <button @onclick="() => EditEmployee(employees)">Edit</button>
+                    <button @onclick="() => DeleteEmployee(employees)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
